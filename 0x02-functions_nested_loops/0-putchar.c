@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * _putchar - writes the character c to stdout
- * 
- **/
+ * main - _putchar - writes the character c to stdout
+*/
 int main(void)
 {
 	_putchar('_');
