@@ -5,7 +5,7 @@
   *
   * Return: 1 for alphabetic character or 0 for anything else
   */
-int print_sign(int n)
+int _isalpha(int c)
 {
 	if ((n >= 97 && n <= 122) || (n >=65 && n <= 90))
 	{
