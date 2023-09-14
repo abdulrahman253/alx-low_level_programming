@@ -1,5 +1,4 @@
 #include "main.h"
-#include "holberton.h"
 
 /**
   * print_diagonal - Draws a diagonal lines according parameter
