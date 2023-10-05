@@ -7,7 +7,7 @@
  * @size: size of the array to create
  * @c: char to initialize the array c
  *
- * Return: pointer to the array (Success), NULL (Error)
+ * Return: pointer to the array if (Success), NULL if (Error)
  */
 char *create_array(unsigned int size, char c)
 {
@@ -31,3 +31,4 @@ char *create_array(unsigned int size, char c)
 	*(p + i) = '\0';
 
 	return (p);
+}	
